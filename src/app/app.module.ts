@@ -9,6 +9,7 @@ import { ShopComponent } from './shop/shop.component';
 import { MobileFriendsComponent } from './mobile-friends/mobile-friends.component';
 import { DiagnosisComponent } from './diagnosis/diagnosis.component';
 import { TherapyComponent } from './therapy/therapy.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TherapyComponent } from './therapy/therapy.component';
     ShopComponent,
     MobileFriendsComponent,
     DiagnosisComponent,
-    TherapyComponent
+    TherapyComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

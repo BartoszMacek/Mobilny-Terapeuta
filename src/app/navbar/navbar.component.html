@@ -2,7 +2,7 @@
   <nav class="navbar navbar-dark fixed-top navbar-expand-xl py-3" data-toggle="affix">
     <a class="navbar-brand" routerLink="/home">
       <img src="assets/images/logo.png" class="brand">
-      <span>Bee Free South Clean Services</span>
+      <span>Mobilny Terapeuta</span>
     </a>
     <button (click)="isCollapsed = !isCollapsed" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -11,22 +11,22 @@
       <ul class="navbar-nav" (click)="isCollapsed = !isCollapsed">
         <li routerLinkActive="active"
             [routerLinkActiveOptions]="{exact: true}" class="nav-item">
-          <a routerLink="/home" class="nav-link">Home</a>
+          <a routerLink="/o-mnie" class="nav-link">O mnie</a>
         </li>
         <li routerLinkActive="active" class="nav-item">
-          <a routerLink="/about-us" class="nav-link">About Us</a>
+          <a routerLink="/terapia" class="nav-link">Terapia</a>
         </li>
         <li routerLinkActive="active" class="nav-item">
-          <a routerLink="/services" class="nav-link" href="#">Services</a>
+          <a routerLink="/diagnoza" class="nav-link" href="#">Diagnoza</a>
         </li>
         <li routerLinkActive="active" class="nav-item">
-          <a routerLink="/gallery" class="nav-link" href="#">Gallery</a>
+          <a routerLink="/mobilni-przyjaciele" class="nav-link" href="#">Mobilni przyjaciele</a>
         </li>
-        <!--<li routerLinkActive="active" class="nav-item">-->
-        <!--<a routerLink="/testimonials" class="nav-link" href="#">Testimonials</a>-->
-        <!--</li>-->
         <li routerLinkActive="active" class="nav-item">
-          <a routerLink="/contact-us" class="nav-link" href="#">Contact Us</a>
+        <a routerLink="/sklep" class="nav-link" href="#">Sklep</a>
+        </li>
+        <li routerLinkActive="active" class="nav-item">
+          <a routerLink="/kontakt" class="nav-link" href="#">Kontakt</a>
         </li>
       </ul>
     </div>
