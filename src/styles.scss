@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'wire one', serif;
+  font-weight:normal;
+}
+
+$green: #05867e;
+$lime:  #379e98;
+$white: #fff;

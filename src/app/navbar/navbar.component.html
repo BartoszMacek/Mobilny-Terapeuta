@@ -1,34 +1,17 @@
 <header>
-  <nav class="navbar navbar-dark fixed-top navbar-expand-xl py-3" data-toggle="affix">
-    <a class="navbar-brand" routerLink="/home">
-      <img src="assets/images/logo.png" class="brand">
-      <span>Mobilny Terapeuta</span>
-    </a>
-    <button (click)="isCollapsed = !isCollapsed" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse no-transition justify-content-end text-uppercase" [attr.aria-expanded]="!isCollapsed" [ngClass]="{collapse: isCollapsed}" id="collapsibleNavId">
-      <ul class="navbar-nav" (click)="isCollapsed = !isCollapsed">
-        <li routerLinkActive="active"
-            [routerLinkActiveOptions]="{exact: true}" class="nav-item">
-          <a routerLink="/o-mnie" class="nav-link">O mnie</a>
+  <nav>
+    <ul class="menu">
+        <li class="logo"><a href="#">Mobiliny terapeuta</a></li>
+        <li routerLinkActive="active" class="item"><a routerLink="/sklep">Sklep</a></li>
+        <li routerLinkActive="active" class="item"><a routerLink="/diagnoza">Diagnoza</a></li>
+        <li routerLinkActive="active" class="item"><a routerLink="/terapia">Terapia</a></li>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="item"><a routerLink="/o-mnie">O mnie</a></li>
+        <li routerLinkActive="active" class="item"><a routerLink="/kontakt">Kontakt</a>
+        <li routerLinkActive="active" class="item"><a routerLink="/mobilni-przyjaciele">Mobilni przyjaciele</a>
         </li>
-        <li routerLinkActive="active" class="nav-item">
-          <a routerLink="/terapia" class="nav-link">Terapia</a>
-        </li>
-        <li routerLinkActive="active" class="nav-item">
-          <a routerLink="/diagnoza" class="nav-link" href="#">Diagnoza</a>
-        </li>
-        <li routerLinkActive="active" class="nav-item">
-          <a routerLink="/mobilni-przyjaciele" class="nav-link" href="#">Mobilni przyjaciele</a>
-        </li>
-        <li routerLinkActive="active" class="nav-item">
-        <a routerLink="/sklep" class="nav-link" href="#">Sklep</a>
-        </li>
-        <li routerLinkActive="active" class="nav-item">
-          <a routerLink="/kontakt" class="nav-link" href="#">Kontakt</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+        <li class="item button"><a href="#">Log In</a></li>
+        <li class="item button secondary"><a href="#">Sign Up</a></li>
+        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+    </ul>
+</nav>
 </header>

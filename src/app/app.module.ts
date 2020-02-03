@@ -10,6 +10,7 @@ import { MobileFriendsComponent } from './mobile-friends/mobile-friends.componen
 import { DiagnosisComponent } from './diagnosis/diagnosis.component';
 import { TherapyComponent } from './therapy/therapy.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     MobileFriendsComponent,
     DiagnosisComponent,
     TherapyComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
