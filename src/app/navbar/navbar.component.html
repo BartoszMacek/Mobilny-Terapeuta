@@ -1,17 +1,18 @@
 <header>
   <nav>
     <ul class="menu">
-        <li class="logo"><a href="#">Mobiliny terapeuta</a></li>
-        <li routerLinkActive="active" class="item"><a routerLink="/sklep">Sklep</a></li>
-        <li routerLinkActive="active" class="item"><a routerLink="/diagnoza">Diagnoza</a></li>
-        <li routerLinkActive="active" class="item"><a routerLink="/terapia">Terapia</a></li>
-        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="item"><a routerLink="/o-mnie">O mnie</a></li>
-        <li routerLinkActive="active" class="item"><a routerLink="/kontakt">Kontakt</a>
-        <li routerLinkActive="active" class="item"><a routerLink="/mobilni-przyjaciele">Mobilni przyjaciele</a>
+        <li class="menu__logo"><a href="#"><img src="assets/img/logo.png" height="50" width="100" alt="Logo firmy"></a></li>
+        <li  routerLinkActive="active" class="menu__item"><a routerLink="/sklep">Sklep</a></li >
+        <li routerLinkActive="active" class="menu__item"><a routerLink="/diagnoza">Diagnoza</a></li>
+        <li routerLinkActive="active" class="menu__item"><a routerLink="/terapia">Terapia</a></li>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="menu__item"><a routerLink="/o-mnie">O mnie</a></li>
+        <li routerLinkActive="active" class="menu__item"><a routerLink="/mobilni-przyjaciele">Mobilni przyjaciele</a>
+        <li routerLinkActive="active" class="menu__item"><a routerLink="/artykuly">Artykuły logopedyczne</a>
+          <li routerLinkActive="active" class="menu__item"><a routerLink="/kontakt">Kontakt</a>
         </li>
-        <li class="item button"><a href="#">Log In</a></li>
-        <li class="item button secondary"><a href="#">Sign Up</a></li>
-        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <li class="menu__item button"><a href="#">Logowanie</a></li>
+        <li class="menu__item button"><a href="#">Rejestracja</a></li>
+        <li class="menu__toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
     </ul>
 </nav>
 </header>

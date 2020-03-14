@@ -11,6 +11,7 @@ import { DiagnosisComponent } from './diagnosis/diagnosis.component';
 import { TherapyComponent } from './therapy/therapy.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FooterComponent } from './footer/footer.component';
+import { LogopedicArticleComponent } from './logopedic-article/logopedic-article.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     DiagnosisComponent,
     TherapyComponent,
     ContactUsComponent,
-    FooterComponent
+    FooterComponent,
+    LogopedicArticleComponent
   ],
   imports: [
     BrowserModule,

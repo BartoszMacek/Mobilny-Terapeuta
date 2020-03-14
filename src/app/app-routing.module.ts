@@ -6,6 +6,7 @@ import { DiagnosisComponent } from './diagnosis/diagnosis.component';
 import { TherapyComponent } from './therapy/therapy.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MobileFriendsComponent } from './mobile-friends/mobile-friends.component';
+import { LogopedicArticleComponent } from './logopedic-article/logopedic-article.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent},
@@ -13,8 +14,9 @@ const routes: Routes = [
   {path: 'diagnoza', component: DiagnosisComponent},
   {path: 'terapia', component: TherapyComponent},
   {path: 'o-mnie', component: MainComponent},
-  {path: 'kontakt', component: ContactUsComponent},
   {path: 'mobilni-przyjaciele', component: MobileFriendsComponent},
+  {path: 'artykuly', component: LogopedicArticleComponent},
+  {path: 'kontakt', component: ContactUsComponent},
 ];
 
 @NgModule({

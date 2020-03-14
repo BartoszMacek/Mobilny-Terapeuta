@@ -1,12 +1,58 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 body {
   margin: 0;
   padding: 0;
-  font-family:'wire one', serif;
-  font-weight:normal;
+  font-family: 'Raleway', sans-serif;
 }
 
-$green: #05867e;
-$lime:  #379e98;
+$blue: #7dbdc9;
+$aqua:  lighten($blue,10%);
 $white: #fff;
+$navy: #2e3192;
+$red: #ee2a4a;
+
+
+.btn {
+	letter-spacing: 1px;
+	text-decoration: none;
+	background: none;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+	font-size:14px;
+	line-height:20px;
+	font-weight:700;
+	text-transform:uppercase;
+	border: 3px solid;
+	padding:8px 15px;
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+  background: none;
+  color: $blue;
+  border-color: $blue;
+
+&:hover{
+  color: $white;
+  background:$aqua;
+  border-color: $aqua;
+}
+}
+
+
+
